@@ -27,7 +27,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                    TRIP OUT <i class="fa fa-space-shuttle"></i>
+                    TRIP STARS <i class="fa fa-space-shuttle"></i>
                 </Link>
 
                 <div className="menu-icon" onClick={handleClick}>
@@ -37,27 +37,29 @@ function Navbar() {
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
                         <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                            Home
+                            Início
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                            Services
+                        <Link to="/pacotes" className="nav-links" onClick={closeMobileMenu}>
+                            Pacotes
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                            Products
+                        <Link to="/destinos" className="nav-links" onClick={closeMobileMenu}>
+                            Destinos
                         </Link>
                     </li>                  
                     <li className="nav-item">
-                        <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                            Sign Up
+                        <Link to="/entrar" className="nav-links-mobile" onClick={closeMobileMenu}>
+                            Entrar
                         </Link>
                     </li>
+                    
 
                 </ul>
-                {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+                {button && <Button buttonStyle="btn--outline">Entrar</Button>}
+                
             </div>
         </nav>
     </>

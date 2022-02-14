@@ -2,14 +2,14 @@ import React from "react";
 import "../App.css";
 import {Button} from "./Button";
 import "./HeroSection.css";
-import video from "../videos/video-2.mp4";
+import video from "../videos/video-3.mp4";
 
 function HeroSection() {
   return (
     <div className="hero-container">
       <video src={video} autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>what are you waiting for?</p>
+      <h1>AO INFINITO E ALÉM</h1>
+      <p>Embarque nessa aventura!</p>
 
       <div className="hero-btns">
         <Button
@@ -17,14 +17,14 @@ function HeroSection() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          GET STARTED
+          VER DESTINOS
         </Button>
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          WATCH TRAILER
+          VER PACOTES
         </Button>
       </div>
     </div>

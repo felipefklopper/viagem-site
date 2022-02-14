@@ -5,6 +5,7 @@ video {
     position: fixed;
     z-index: -1;
     background-position: center;
+    
 }
 
 .hero-container {
