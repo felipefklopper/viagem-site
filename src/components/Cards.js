@@ -3,6 +3,9 @@ import CardItem from './CardItem';
 import './Cards.css';
 import image1 from '../images/alderaan.webp';
 import image2 from '../images/bespin.jpeg';
+import image3 from '../images/CoruscantBG.webp';
+import image4 from '../images/naboo.webp';
+import image5 from '../images/Theed.webp';
 
 
 function Cards() {
@@ -28,29 +31,24 @@ function Cards() {
                 </ul>
                 <ul className="cards__items">
                     <CardItem
-                      src={image1}
-                      text="Explore the hidden etc"
-                      label='Aventura'
+                      src={image3}
+                      text="A capital da República Galáctica"
+                      label='Coruscant'
                       path='/pacotes'
                     />
                     <CardItem
-                      src={image1}
-                      text="Explore the hidden etc"
-                      label='Descansar'
+                      src={image4}
+                      text="Conheça o planeta dos Gungans"
+                      label='Naboo'
                       path='/pacotes'
                     />
                     <CardItem
-                      src={image1}
-                      text="Explore the hidden etc"
-                      label='Turismo'
+                      src={image5}
+                      text="Visite o Palácio da Casa Real de Naboo"
+                      label='Theed'
                       path='/services'
                     />
-                    <CardItem
-                      src={image1}
-                      text="Explore the hidden etc"
-                      label='Turismo'
-                      path='/services'
-                    />
+                    
                                        
                 </ul>
             </div>
