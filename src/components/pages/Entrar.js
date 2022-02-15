@@ -1,6 +1,11 @@
 import React from 'react'
 import '../../App.css'
+import Login from '../Login';
 
-export default function Entrar () {
-    return <h1 className='entrar'>ENTRAR</h1>;
+
+export default function Entrar() {
+    return (
+        <>
+            <Login/>
+        </>);
 }
